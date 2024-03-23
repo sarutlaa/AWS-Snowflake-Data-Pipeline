@@ -55,11 +55,9 @@ Transform data and Load it in Snowflake Data Warehouse ----> Finding the insight
 ## Data Sources: 
 
 
-Spotify API developers account : https://developer.spotify.com/ , For access to the Spotify Playlists.
-
-S3 Storage Integration in Snowflake : https://docs.snowflake.com/en/user-guide/data-load-s3-config-storage-integration.
-
-Automating Snowpipe for S3 : https://docs.snowflake.com/en/user-guide/data-load-snowpipe-auto-s3
+1. Spotify API developers account : https://developer.spotify.com/ , For access to the Spotify Playlists.
+2. S3 Storage Integration in Snowflake : https://docs.snowflake.com/en/user-guide/data-load-s3-config-storage-integration.
+3. Automating Snowpipe for S3 : https://docs.snowflake.com/en/user-guide/data-load-snowpipe-auto-s3
 
 ## Things to Note Down
 1. Make sure to user the IAM user roles for accessing the AWS services and Allocate IAM policies for the AWS services interacting with each other.
