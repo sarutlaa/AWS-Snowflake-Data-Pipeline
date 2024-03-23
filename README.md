@@ -28,7 +28,7 @@ Harnessed the Power of AWS Services ( S3, Lambda Functions, IAM Roles, S3 Event 
 
 ## Architecture
 
-
+https://github.com/sarutlaa/AWS-Snowflake-Music-Insights-Pipeline/blob/main/Architecture_ETL.jpg
 
 ## Project WorkFlow
 
