@@ -1,2 +1,3 @@
-# AWS-Snowflake-Data-Pipeline
- Building a Seamless Data Pipeline with AWS and Snowpipe
+# AWS-Snowflake-Music-Insights-Pipeline
+ 
+Harnessing the Power of AWS Services for Deeper Music Streaming Insights tailored to extracting, transforming, and loading (ETL) Spotify's data to unlock profound insights into the dynamics of top music artists, albums, and tracks featured in the Top 100 Global playlists. The data pipeline initiates by fetching information from the Spotify API, followed by meticulous data processing to render it conducive for analysis. The refined data is then seamlessly loaded into Snowflake Data Warehouse, enabling seamless querying of the processed data. Snowpipe within Snowflake serves as a serverless feature automating the entire pipeline, ensuring continuous and efficient data flow.
