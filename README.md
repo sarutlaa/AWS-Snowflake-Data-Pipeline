@@ -28,8 +28,7 @@ Harnessed the Power of AWS Services ( S3, Lambda Functions, IAM Roles, S3 Event 
 
 ## Architecture
 
-
-
+https://github.com/sarutlaa/AWS-Snowflake-Music-Insights-Pipeline/blob/main/Architecture_ETL.jpg
 
 ## Project WorkFlow
 
@@ -53,11 +52,13 @@ Extract Data from Spotify API ----> Triggering Lambda Functions( Every 1 day) --
 Store the raw data in S3 bucket ----> Trigger tranform function whenever new data is in S3 raw data bucket ---->
 Transform data and Load it in Snowflake Data Warehouse ----> Finding the insights about the Top 100 songs using SQL Queries. 
 
-## Data Source: 
+## Data Sources: 
 
 
 Spotify API developers account : https://developer.spotify.com/ , For access to the Spotify Playlists.
-S3 Storage Integration in Snowflake : https://docs.snowflake.com/en/user-guide/data-load-s3-config-storage-integration
+
+S3 Storage Integration in Snowflake : https://docs.snowflake.com/en/user-guide/data-load-s3-config-storage-integration.
+
 Automating Snowpipe for S3 : https://docs.snowflake.com/en/user-guide/data-load-snowpipe-auto-s3
 
 ## Things to Note Down
